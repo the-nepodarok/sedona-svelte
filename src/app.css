@@ -1,0 +1,63 @@
+:root {
+  --basic-black: #000000;
+  --basic-white: #ffffff;
+  --basic-brown: #766357;
+  --basic-gray: #666666;
+  --basic-blue: #81B3D2;
+  --light-gray: #EEEEEE;
+  --background-gray: #F2F2F2;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 90vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.card {
+  padding: 2em;
+}
+
+#svelte {
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: var(--basic-black);
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  font-weight: 500;
+  color: var(--basic-black);
+  text-decoration: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

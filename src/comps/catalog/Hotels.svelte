@@ -11,7 +11,7 @@
 
     <ul class="found-hotel-list">
         <li>
-            <img class="hotel-img" src="img/Amara-resort.jpg" width="135" height="90" alt="Гостиница Amara Resort & Spa">
+            <img class="hotel-img" src="src/assets/Amara-resort.jpg" width="135" height="90" alt="Гостиница Amara Resort & Spa">
             <h3><a href="#">AMARA RESORT & SPA</a></h3>
             <p class="type">Гостиница</p>  <p class="pricing">От 4000 Р</p>
             <a class="more-info-button hotel-button" href="#">Подробнее</a>
@@ -19,7 +19,7 @@
             <p class="hotel-rating">Рейтинг: 8,5</p>
         </li>
         <li>
-            <img class="hotel-img" src="img/Desert-Quail.jpg" width="135" height="90" alt="мотель Desert Quail">
+            <img class="hotel-img" src="src/assets/Desert-Quail.jpg" width="135" height="90" alt="мотель Desert Quail">
             <h3><a href="#">DESERT QUAIL INN</a></h3>
             <p class="type">Мотель</p>   <p class="pricing">От 3000 Р</p>
             <a class="more-info-button hotel-button" href="#">Подробнее</a>
@@ -27,7 +27,7 @@
             <p class="hotel-rating">Рейтинг: 8,9</p>
         </li>
         <li>
-            <img class="hotel-img" src="img/Villas-pocodiablo.jpg" width="135" height="90" alt="апартаменты Villas at Poco Diablo">
+            <img class="hotel-img" src="src/assets/Villas-pocodiablo.jpg" width="135" height="90" alt="апартаменты Villas at Poco Diablo">
             <h3><a href="#">VILLAS AT POCO DIABLO</a></h3>
             <p class="type">Апартаменты</p>    <p class="pricing">От 2000 Р</p>
             <a class="more-info-button hotel-button" href="#">Подробнее</a>
@@ -38,13 +38,13 @@
 </section>
 
 <style>
-    .hotel-sortlist-header {
+    header {
         font-size: 12px;
         line-height: 21px;
         padding: 2px 73px;
     }
 
-    .how-many-found {
+    h2 {
         display: inline-block;
         margin: 30px 45px 30px 0;
         font-size: 21px;
@@ -128,8 +128,8 @@
         grid-template-columns: 165px max-content 142px 1fr;
         grid-template-rows: 1fr 35px 27px;
         grid-template-areas: "hotel-img hotel-name hotel-name rating-star"
-                       "hotel-img type pricing ."
-                       "hotel-img button-1 button rating";
+                             "hotel-img type pricing ."
+                             "hotel-img button-1 button rating";
         border-top: 1px solid #E5E5E5;
         border-bottom: 1px solid #E5E5E5;
     }
@@ -161,7 +161,7 @@
         font-weight: 700;
         text-align: center;
         text-transform: uppercase;
-        padding: 3px 17px;
+        padding: 3px 12px;
         border: none;
         cursor: pointer;
     }
@@ -202,7 +202,7 @@
     .found-hotel-list li::after {
         content: "";
         grid-area: rating-star;
-        background-image: url('../img/four-stars.svg');
+        background-image: url('src/assets/four-stars.svg');
         background-repeat: no-repeat;
         width: 91px;
         height: 17px;

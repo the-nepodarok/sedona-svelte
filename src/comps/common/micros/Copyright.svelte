@@ -1,7 +1,7 @@
 <section>
     <p>Website by</p>
     <a href="https://www.htmlacademy.ru">
-        <img class="html-academy-logo" src="../../../../dist/img/footer.svg" width="115" height="33" alt="HTML Academy" style="cursor: pointer;">
+        <img class="html-academy-logo" src="src/assets/footer.svg" width="115" height="33" alt="HTML Academy" style="cursor: pointer;">
     </a>
 </section>
 

@@ -13,7 +13,7 @@
             </td>
 
             <td class="advantages-img" colspan="2">
-                <img src="../../../../../dist/img/sedona-city.jpg" width="800" height="256" alt="Город Седона">
+                <img src="src/assets/sedona-city.jpg" width="800" height="256" alt="Город Седона">
             </td>
         </tr>
 
@@ -33,7 +33,7 @@
         </tr>
 
         <tr>
-            <td class="advantages-img"  colspan="2"> <img src="../../../../../dist/img/devil-bridge.jpg" width="800" height="256" alt="Мост Дьявола"> </td>
+            <td class="advantages-img"  colspan="2"> <img src="src/assets/devil-bridge.jpg" width="800" height="256" alt="Мост Дьявола"> </td>
 
             <td class="advantages-text">
                 <h3>Там есть <br>мост Дьявола</h3>
@@ -128,7 +128,7 @@
         content: "";
         width: 75px;
         height: 80px;
-        background: url('../../../../../dist/img/advantages-group.svg') no-repeat;
+        background: url('src/assets/advantages-group.svg') no-repeat;
         background-position-x: 0%;
         align-self: center;
         position: absolute;

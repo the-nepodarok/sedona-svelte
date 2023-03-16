@@ -23,20 +23,20 @@
         width: 46px;
         height: 48px;
         display: inline-block;
-        background-image: url('../../../../dist/img/tweet.svg');
+        background-image: url('src/assets/tweet.svg');
     }
 
     .facebook {
         width: 46px;
         height: 48px;
         display: inline-block;
-        background-image: url('../../../../dist/img/fbook.svg');
+        background-image: url('src/assets/fbook.svg');
     }
 
     .youtube {
         width: 46px;
         height: 48px;
         display: inline-block;
-        background-image: url('../../../../dist/img/ytube.svg');
+        background-image: url('src/assets/ytube.svg');
     }
 </style>

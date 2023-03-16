@@ -4,7 +4,7 @@
 </script>
 
 <h1>Седона</h1>
-<img src="../../../dist/img/sedona-big.png" width="1200" height="510" alt="Добро пожаловать в Седону!">
+<img src="src/assets/sedona-big.png" width="1200" height="510" alt="Добро пожаловать в Седону!">
 <Advantages />
 <Offer />
 
